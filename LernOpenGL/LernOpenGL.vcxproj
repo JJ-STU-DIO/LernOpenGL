@@ -78,13 +78,13 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\myLibs\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\myLibs\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)myLibs\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)myLibs\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\myLibs\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\myLibs\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(SolutionDir)myLibs\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)myLibs\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
