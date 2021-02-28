@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{3E2A
 		Shaders\shader.vert = Shaders\shader.vert
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Textures", "Textures", "{4F3B25D7-9845-4C72-8AB7-78BDCABBEF4D}"
+	ProjectSection(SolutionItems) = preProject
+		Textures\awesomeface.png = Textures\awesomeface.png
+		Textures\wooden_container.jpg = Textures\wooden_container.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
